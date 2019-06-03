@@ -21,10 +21,10 @@ For a comprehensive explanation of all the parameters, run:
 python train.py --help
 ```
   
-Each new running of the code will create a new folder with the specified trail_name, all the generated images, model checkpoints and loss value loging file will be stored in this new folder. A copy of the codes that been run will also be stored.
+Each new running of the code will create a new folder with the specified trail_name, all the generated images, model checkpoints and loss value loging file will be stored in this new folder. A copy of the codes that you run will also be intimately stored (because you might have modefied them).
 
 ## Dataset
-This code is ready for your own image datasets with the **torchvision.datasets.ImageFolder** module
+This code is ready for your own image datasets with the **torchvision.datasets.ImageFolder** module.  
 Place all your images in a way like:
 ```
 <image_root_folder>
