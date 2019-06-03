@@ -40,4 +40,4 @@ This code performs consistently well on various datasets I tested, I just don't 
 
 ## Reference
 1. *Progressive Growing of GANs for Improved Quality, Stability, and Variation*, **Tero Karras** (NVIDIA), **Timo Aila** (NVIDIA), **Samuli Laine** (NVIDIA), **Jaakko Lehtinen** (NVIDIA and Aalto University) [Paper (NVIDIA research)](http://research.nvidia.com/publication/2017-10_Progressive-Growing-of)
-
+2. This implementation is based on: https://github.com/rosinality/progressive-gan-pytorch
