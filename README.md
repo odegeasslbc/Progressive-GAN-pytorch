@@ -4,7 +4,7 @@ A pytorch implementation of Progressive-GAN that is actually works, readable and
 ## Description
 I simplify the code of training a Progressive-GAN, making it easier to read and customize, for the purpose of research.  
 This implementation is portable with minimal library dependency (only torch and torchvision) and just 2 code modules. In the code, you can easily modeify the training-schema, the loss function, and the network structure, etc.  
-The key contributions in the paper: 1. progressively growing og GAN, 2. minibatch std on Discriminator, 3. pixel-norm on Generator, 4. equalized learning rate; are all implemented.  
+The key contributions in the paper: 1. progressively growing of GAN, 2. minibatch std on Discriminator, 3. pixel-norm on Generator, 4. equalized learning rate; are all implemented.  
 Enjoy the benefit of the progressive-growing infrastructure and port it to your own research and product!
 
 ## How to run
