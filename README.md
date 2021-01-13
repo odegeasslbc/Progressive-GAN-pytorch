@@ -1,5 +1,5 @@
 # Progressive-GAN-pytorch
-A pytorch implementation of Progressive-GAN that is actually works, readable and simple to customize
+A pytorch implementation of Progressive-GAN that is actually work, readable and simple to customize
 
 ## Description
 I simplify the code of training a Progressive-GAN, making it easier to read and customize, for the purpose of research.  
