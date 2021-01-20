@@ -84,7 +84,8 @@ def train(generator, discriminator, init_step, loader, total_iter=600000):
     copy('progan_modules.py', log_folder+'/model_%s.py'%post_fix)
 
     alpha = 0
-    one = torch.FloatTensor([1]).to(device)
+    #one = torch.FloatTensor([1]).to(device)
+    one = torch.tensor(1, dtype=torch.float).to(device)
     mone = one * -1
     iteration = 0
 
