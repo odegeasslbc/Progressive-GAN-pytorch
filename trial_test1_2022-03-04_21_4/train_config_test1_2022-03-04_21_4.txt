@@ -1,0 +1,1 @@
+Namespace(batch_size=4, channel=128, gpu_id=0, init_step=1, lr=0.001, n_critic=1, path='./image', pixel_norm=False, tanh=False, total_iter=150000, trial_name='test1', z_dim=128)
